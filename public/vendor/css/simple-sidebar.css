@@ -9,7 +9,7 @@
  }
  
 #sidebar-wrapper {
-  min-height: 100vh;
+  min-height: 150vh;
   margin-left: -15rem;
   -webkit-transition: margin .25s ease-out;
   -moz-transition: margin .25s ease-out;
@@ -23,7 +23,7 @@
 }
 
 #sidebar-wrapper .list-group {
-  width: 15rem;
+  width: 14rem;
 }
 
 #page-content-wrapper {
@@ -43,9 +43,23 @@
 }
 
 .asidebar{
-  background-color: #2FA1C6;
+  background-color: #4198B4;
   color: #fff;
   border-style: none;
+ padding-bottom: 40px;
+}
+
+
+.asidebar a:nth-child(1) {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+ .asidebar a:hover {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
 }
 
 .list-group-item {
@@ -63,7 +77,12 @@
   color: #000;
   font-weight: bold;
 }
-
+.list-group-item:active{
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+}
 
 
 @media (min-width: 768px) {
@@ -83,8 +102,8 @@
   /*tryout*/
   .tryout-item{
     border-radius: 5px;
-    background-color: #D2DDEA;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    background-color: #EAEDF2;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
     margin-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -115,7 +134,7 @@
   }
 
   .tryout-button{
-    background-color: #2FA1C6;
+    background-color: #4198B4;
     margin-top: 10px;
     border-radius: 25px;
     text-decoration: none;
@@ -130,9 +149,9 @@
   .tryout-button a{text-decoration: none;}
 
   .tryout-button:hover{
-    color: #2FA1C6;
+    color: #4198B4;
     background-color: #fff;
-    border-color: #2FA1C6;
+    border-color: #4198B4;
     border-width: 2px;
     border-style:solid;
     transition-duration: 0.25s;
@@ -152,7 +171,7 @@
     text-align: center;
     width: 180px;
     position: relative;
-    top: 50%;
+    top: 44%;
   }
 
   .button-upgrade{
